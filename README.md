@@ -4,11 +4,11 @@
 postgres + sqlite = pglite
 ```
 
-pglite is a server which implements Postgres wire protocol and uses SQLite as its storage engine. Similar to [postlite](https://github.com/benbjohnson/postlite)
+pglite is a server which implements Postgres wire protocol and uses SQLite as its storage engine. Similar to [postlite](https://github.com/benbjohnson/postlite) but it has a lot more comments explaining the implementation :)
 
 
 # Why
-Mainly to learn about Postgres wire protocol. The code has ample of comments. It should help anyone who is looking to understand/implement Postgres wire protocol
+Mainly to learn about Postgres wire protocol. The code has ample of comments. It may help anyone who is looking to understand/implement Postgres wire protocol. Refer https://viggy28.dev/article/introduction-to-postgres-wire-protocol-in-go/
 
 # Install
 
